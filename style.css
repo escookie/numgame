@@ -1,1 +1,43 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrap {    
+    width: 50%;
+    margin: 5% 25%;
+    text-align: center;
+
+    padding: 5% 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    border: 2px solid #fff;
+}
 .wrap > div:nth-child(6){padding-top: 15px}
+
+.form-control{
+    height: 4vw;
+    font-size: 4vw;
+    max-width: 50%;
+    text-align: center;
+}
+.btn-control{
+    height: 4vw;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.main-img{
+    max-width: 50%;
+}
+
+.txt2{font-size: 2vw;}
+.txt3{font-size: 3vw;}
+.txt4{font-size: 4vw;}
+
+.pt3{padding-top: 3%;}
+.pb3{padding-bottom: 3%;}
+
+.bold{font-weight: 900;}
+

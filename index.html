@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>숫자 맞추기</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrap">
-        <h1>숫자 맞추기 게임</h1> 
-        <h3 id="result-area">결과</h3>        
-        <input type="number" id="user-input"/>
-        <button id="play-button">고!</button>
-        <button id="reset-button">다시시작</button>
-
-        <div id="chance-area">남은기회 : 10번</div>
-        <div id="before-num">이전숫자 :</div>
+        <div class="txt3 bold">숫자 맞추기 게임</div> 
+        <div id="result-area" class="txt3 pt3 pb3">            
+            <img src="images/smile.jpg" class="main-img">
+            <div class="result-text">결과</div>
+        </div>        
+        <input type="number" id="user-input" class="form-control"/>
+        <button id="play-button" class="btn-control">고!</button>
+        <button id="reset-button" class="btn-control">다시시작</button>
+        <div id="chance-area" class="txt2">남은기회 : 10번</div>
+        <div id="before-num" class="txt2 pt3">이전숫자 :</div>
     </div>
-
     <script src="main.js"></script>
 </body>
 </html>
