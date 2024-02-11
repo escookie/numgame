@@ -28,9 +28,9 @@ body {
     text-align: center;
 }
 
-.main-img{
+/* .main-img{
     max-width: 50%;
-}
+} */
 
 .txt2{font-size: 2vw;}
 .txt3{font-size: 3vw;}
@@ -41,3 +41,13 @@ body {
 
 .bold{font-weight: 900;}
 
+@media only screen and (min-width: 600px) {
+    .main-img {
+      max-width: 50%;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    .main-img {
+      max-width: 30%;
+    }
+  }

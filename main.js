@@ -59,7 +59,7 @@ function play(){
 
     history.push(userValue); // 이전 숫자를 배열에 추가
     
-    beforeNum.textContent = "이전숫자 : "+userValue
+    beforeNum.textContent = "이전숫자 : " + userValue
     beforeNum.textContent = "이전숫자 : " + history.join(" , "); // 배열의 모든 요소를 출력
 
 
