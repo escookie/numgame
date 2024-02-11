@@ -36,15 +36,15 @@ resetButton.addEventListener("click", reset);
 
 
 function RandomNum(){
-    comNum = Math.floor(Math.random() * 100)+1;
+    comNum = Math.floor(Math.random() * 1000)+1;
     console.log(comNum)
 }
 
 function play(){
     let userValue = userInput.value;
     //유효성검사
-    if(userValue<1 || userValue>100){
-        resultText.textContent = "1과 100 사이 숫자를 써주세요!"
+    if(userValue<1 || userValue>1000){
+        resultText.textContent = "1과 1000 사이 숫자를 써주세요!"
         return;
     }
 
@@ -80,6 +80,8 @@ function play(){
 
     if(chances < 1){
         gameOver = true;
+        resultAreaImg.src = "images/fail.jpg";
+        resultText.textContent = "실패!!";
     }
     if(gameOver == true){
         playButton.disabled = true;
